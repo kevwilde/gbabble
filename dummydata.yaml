@@ -1,0 +1,17 @@
+defaults:
+  interval: 60 # in seconds
+  range:
+    from: 0.0
+    until: 10.0
+    step: 0.01
+
+metrics:
+  - servers.server1.loads.load1
+  - servers.server1.loads.load2
+  - servers.server1.loads.load3
+  - servers.server2.loads.load1
+  - servers.server2.loads.load2
+  - servers.server2.loads.load3
+  - servers.server3.loads.load1
+  - servers.server3.loads.load2
+  - servers.server3.loads.load3
